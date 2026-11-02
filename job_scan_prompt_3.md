@@ -1,8 +1,11 @@
 # Weekly finance job scan
-Find open senior finance and accounting roles at the companies in `companies_sources.md`. Deliver a Gmail draft to chris@ccsconsulting.org with five sections: Senior roles, Other finance roles, Team-page watch, Not covered this week, and Summary (details at the end).
+Find open finance and accounting roles at the companies in `companies_sources.md`. 
+Produce a report with five sections: Senior roles, Other finance roles, Team-page watch, Not covered this week, and Summary (details at the end).
+
+Always show the full report in the chat when you finish. If the Gmail connector is available, also save it as a Gmail draft addressed to chris@ccsconsulting.org. If not, use last week's report if the user pastes it; otherwise mark everything NEW.
 
 ## Before you start: last week's email
-Search Gmail for the most recent "Weekly finance job scan" email. You'll use it to mark postings NEW or SEEN and to compare team pages. If none exists, treat everything as NEW and team pages as a baseline.
+If available, search Gmail for the most recent "Weekly finance job scan" email. You'll use it to mark postings NEW or SEEN and to compare team pages. If none exists, treat everything as NEW and team pages as a baseline.
 
 ## Step 1: Read company job boards directly
 - For every company under "Readable with web fetch," fetch its URL and follow its Notes.
@@ -37,13 +40,19 @@ Include if fully remote (US), or in the Oregon or Vancouver, WA metro (including
 - "Remote-XX" roles limited to one state count only if that state is Oregon.
 - If a listing shows "+ N other locations," open the posting to check before excluding it.
 
+## Posting age
+- SENIOR roles: exclude postings dated more than 60 days before today.
+- OTHER roles: exclude postings dated more than 30 days before today.
+- Relative dates count: "Posted 45 days ago" passes for SENIOR but not OTHER. A vague "30+ days ago" passes for SENIOR only if the posting page shows an actual date within 60 days; otherwise include it, mark "Check," and write "30+ days" in Notes.
+- If no date is shown anywhere (list or posting page), include it and write "date not shown" in Notes.
+
 ## New vs. seen
-NEW if the posting's URL (or same title + company) wasn't in last week's email; otherwise SEEN. Don't use posted dates; sites often refresh them on reposts.
+Among postings that pass the age rule: NEW if the posting's URL (or same title + company) wasn't in last week's email; otherwise SEEN.
 
 ## Team-page watch
 For companies whose Notes say "watch the team section," list the finance staff (CFO, Controller, VP Finance, and similar) by name and title. Mark any added, removed, or changed entry vs. last week as CHANGE.
 
-## Output: the Gmail draft
+## Output
 Subject: Weekly finance job scan — {today's date}
 
 1. **Senior roles**: table with columns Status (VERIFIED / UNVERIFIED) | New/Seen | Company | Title | Location | Link | Notes. NEW first.
