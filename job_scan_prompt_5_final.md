@@ -1,5 +1,5 @@
-# Weekly finance job scan
-Find open finance and accounting roles at the companies in `companies_sources.md`. 
+# Weekly job scan
+Find open finance and accounting roles at the companies in `companies_sources.md`. Roles are listed in 'Role match' section.
 Produce a report with four sections: Roles, Team-page watch, Not covered this week, and Summary (details at the end).
 
 Always show the full report in the chat when you finish. If the Gmail connector is available, also save it as a Gmail draft addressed to chris@ccsconsulting.org. If not, use last week's report if the user pastes it; otherwise mark everything NEW.
@@ -14,7 +14,7 @@ If available, search Gmail for the most recent "Weekly Job Scan" email. You'll u
 - Postings found here come from the employer's own board: mark them DIRECT.
 
 ## Step 2: Search the web and aggregators
-- For every company, search the web for its open finance and accounting roles. Aggregators (Indeed, LinkedIn, ZipRecruiter, Built In, Glassdoor, dejobs.org, etc.) may be used to find postings.
+- For every company, search the web for its open roles. Aggregators (Indeed, LinkedIn, ZipRecruiter, Built In, Glassdoor, dejobs.org, etc.) may be used to find postings.
 - Skip staffing-agency listings that don't name one of our companies as the employer.
 - Skip postings you already found in Step 1.
 
