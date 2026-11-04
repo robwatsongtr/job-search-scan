@@ -2,7 +2,7 @@
 
 ## AbSci
 - URL: https://api.ashbyhq.com/posting-api/job-board/absci
-- Notes: Readable (Ashby public JSON feed; no JS). Returns all jobs with title, department, location, isRemote, publishedAt. Careers page (absci.com/career) embeds Ashby via JS, so use this feed instead. 7 jobs as of 10/29; mostly US remote, none in Vancouver, WA. Confirm the Project's fetch can open it on first run.
+- Notes: Readable (Ashby public JSON feed; no JS). Returns all jobs with title, department, location, isRemote, publishedAt. Careers page (absci.com/career) embeds Ashby via JS, so use this feed instead. Mostly US remote, none in Vancouver, WA. Confirm the Project's fetch can open it on first run.
 
 ## Oregon Tool
 - URL: https://jobs.oregontool.com/search/
@@ -26,11 +26,11 @@
 
 ## GoGuardian
 - URL: https://job-boards.greenhouse.io/goguardian
-- Notes: Readable. Greenhouse; one page, grouped by department; no dates. Locations show only "United States"/"India" (US roles likely remote; confirm on posting). "Revenue Operations" dept = sales ops, not finance.
+- Notes: Readable. Greenhouse; one page, grouped by department; no dates. Locations show only "United States"/"India" (US roles likely remote; confirm on posting). 
 
 ## Airship
 - URL: https://job-boards.eu.greenhouse.io/airship
-- Notes: Readable. Greenhouse (EU instance). Includes Gummicube (subsidiary) roles. Mostly remote. No-unsolicited-agency policy, but I believe Chris has personal contacts there, so finance openings are worth flagging.
+- Notes: Readable. Greenhouse (EU instance). Includes Gummicube (subsidiary) roles. Mostly remote. 
 
 ## The Portland Clinic
 - URL: https://phh.tbe.taleo.net/phh02/ats/careers/v2/searchResults?org=TPC&cws=43
@@ -42,7 +42,7 @@
 
 ## Grow Schools (formerly Charter School Capital)
 - URL: https://growschools.com/careers/
-- Notes: Readable (plain WordPress page). "There are no open positions at this time" as of 10/28; report as "no openings," not "couldn't check." Fully remote company. When roles appear, check whether they link to an external ATS.
+- Notes: Readable (plain WordPress page). Fully remote company. When roles appear, check whether they link to an external ATS.
 
 ## Vector Laboratories
 - URL: https://vectorlabs.com/about/careers/
@@ -50,7 +50,7 @@
 
 ## Advanced Marketing Group (AMG)
 - URL: https://advancedmarketinggroupllc.com/
-- Notes: No careers page or job board. Small (~20 staff); Wilsonville, OR corporate office. Readable. Instead of jobs, watch the "Accounting Staff" section: as of 10/28 it lists a CFO/COO and a Controller. Flag any change to those names or titles.
+- Notes: No careers page or job board. Small (~20 staff); Wilsonville, OR corporate office. Readable. 
 
 ## Centene Corporation
 - URL: https://jobs.centene.com/us/en/jobs/
@@ -70,7 +70,7 @@
 
 ## The Standard (StanCorp)
 - URL: https://standard.wd1.myworkdayjobs.com/Search?locations=166b8e1f7d480137f8f159b19801231f&locations=166b8e1f7d480153342713b19801c01d
-- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser 10/28). Workday. locations = Remote, OR + Portland, OR (IDs 166b…231f / 166b…c01d, order unconfirmed). 15 jobs as of 10/28; relative dates + REQ IDs. HIGH PRIORITY. Senior actuarial roles open (VP and Director); "Actuary" not in keyword list.
+- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser). Workday. locations = Remote, OR + Portland, OR (IDs 166b…231f / 166b…c01d, order unconfirmed). 
 
 ## Weir ESCO
 - URL: https://weir.wd3.myworkdayjobs.com/Weir_External_Careers?[filters]
@@ -86,11 +86,11 @@
 
 ## United States Bakery / Franz Bakery
 - URL: https://bakeryportal.rec.pro.ukg.net/UNI1118UBAKE/JobBoard/5324de7a-568a-4c02-b992-14593e5888be/?q=&o=postedDateDesc&f5=NrVcEvhvk0WpzgYCE4Q34g+NmXzP5w6EE2qtMG28sNCTQ
-- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser 10/28). UKG Pro. f5= Job Category = Administration + Human Resources (finance roles post under Administration). Read only the "Showing X of Y" results; IGNORE the "Featured Opportunities" box (unfiltered). 2 jobs as of 10/28, incl. Accounting Manager, Vancouver, WA.
+- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser). UKG Pro. f5= Job Category = Administration + Human Resources (finance roles post under Administration). Read only the "Showing X of Y" results; IGNORE the "Featured Opportunities" box (unfiltered). 
 
 ## Lithia Motors
 - URL: https://careers.lithiadriveway.com/opportunities?state=Oregon&category=Administrative,Finance/Accounting&
-- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser 10/29). Webflow; fetch returns a TEMPLATE WITH FAKE DATA ("1,234 opportunities", sample "Sales Representative"), never report from it. Filters work in browser: 9 jobs as of 10/29. Corporate HQ Medford; Driveway Finance Corp (DFC) in Tigard/Medford. Some miscategorized jobs (e.g., valets).
+- Notes: NEEDS BROWSER/SCRAPER (group 1; confirmed working in browser). Webflow; fetch returns a TEMPLATE WITH FAKE DATA ("1,234 opportunities", sample "Sales Representative"), never report from it. Filters work in browser. Corporate HQ Medford; Driveway Finance Corp (DFC) in Tigard/Medford. Some miscategorized jobs (e.g., valets).
 
 ## Dutch Bros
 - URL: https://careers.dutchbros.com/us/en/c/headquarters-jobs
@@ -112,11 +112,11 @@
 
 ## North Coast Container (formerly Myers Container)
 - URL: https://northcoastcontainer.applicantpro.com/jobs/
-- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved (ApplicantPro); list loads via JS (fetch shows none; browser shows all). 6 jobs as of 10/29, all plant roles in Charlotte, NC and Chicago, IL; none in Oregon. Confirm where corporate/finance sits post-rename. List shows address, dept, pay, posted date.
+- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved (ApplicantPro); list loads via JS (fetch shows none; browser shows all). All plant roles in Charlotte, NC and Chicago, IL; none in Oregon. Confirm where corporate/finance sits post-rename. List shows address, dept, pay, posted date.
 
 ## Springbrook Software
 - URL: https://springbrooksoftware.isolvedhire.com/jobs/
-- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved Hire ("Springbrook Holding Company LLC"); list loads via JS, so fetch sees nothing even when jobs exist (confirmed via ApplicantPro, same platform). Board live but empty as of 10/28 (checked in browser). Not linked from springbrooksoftware.com. Job alert sign-up available on page. Portland HQ.
+- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved Hire ("Springbrook Holding Company LLC"); list loads via JS, so fetch sees nothing even when jobs exist (confirmed via ApplicantPro, same platform). Board live but empty as of 10/28/26 (checked in browser). Not linked from springbrooksoftware.com. Job alert sign-up available on page. Portland HQ.
 
 ## Concora Credit
 - URL: https://careers-concoracredit.icims.com
@@ -138,7 +138,7 @@
 
 ## Northwest Pipe Company (NWPX)
 - URL: https://jobs.dayforcehcm.com/nwpx/CANDIDATEPORTAL
-- Notes: NEEDS BROWSER/SCRAPER (group 3). Dayforce; JS-only. searchText= works in URL but no location filter found (no Vancouver, WA option as of 10/26). Read full list and keep Vancouver, WA HQ and remote finance roles. Mostly plant roles in other states. Rebranded from Northwest Pipe; nwpx.com/careers links here.
+- Notes: NEEDS BROWSER/SCRAPER (group 3). Dayforce; JS-only. searchText= works in URL but no location filter found (no Vancouver, WA option as of 10/26/26). Read full list and keep Vancouver, WA HQ and remote finance roles. Mostly plant roles in other states. Rebranded from Northwest Pipe; nwpx.com/careers links here.
 
 ## Banfield Pet Hospital / Mars Veterinary Health
 - URL: https://jobs.banfield.com/jobs

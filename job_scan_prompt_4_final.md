@@ -9,12 +9,12 @@ If available, search Gmail for the most recent "Weekly finance job scan" email. 
 
 ## Step 1: Read employer job boards directly
 - For every company under "Readable with web fetch," fetch its URL and follow its Notes.
-- If a browser tool is available, also open every company under "Needs browser or scraper" and read its list, following its Notes. Without a browser, skip these; Step 2 covers them.
+- If a browser tool is available, also open every company under "Needs browser or scraper" and read its list, following its Notes. 
 - If a page shows placeholder text ("Text", "City", "Loading...", a sample job card), treat it as not loaded and report nothing from it.
 - Postings found here come from the employer's own board: mark them DIRECT.
 
 ## Step 2: Search the web and aggregators
-- For every company, search the web for its open finance roles. Aggregators (Indeed, LinkedIn, ZipRecruiter, Built In, Glassdoor, dejobs.org, etc.) may be used to find postings.
+- For every company, search the web for its open finance and accounting roles. Aggregators (Indeed, LinkedIn, ZipRecruiter, Built In, Glassdoor, dejobs.org, etc.) may be used to find postings.
 - Skip staffing-agency listings that don't name one of our companies as the employer.
 - Skip postings you already found in Step 1.
 
@@ -22,7 +22,8 @@ If available, search Gmail for the most recent "Weekly finance job scan" email. 
 Open the employer's own posting page:
 - Shows the job: VERIFIED. Report the employer's URL.
 - Redirects to a search page, 404s, or says "no longer accepting applications" or "position filled": CLOSED. Drop it, but count it.
-- Won't load or shows no job content: UNVERIFIED. Report it with the aggregator URL.
+- Won't load or shows no job content: UNVERIFIED. Report it with the aggregator URL. 
+- Always put UNVERIFIED jobs in report, so that I can see them. 
 Never build, shorten, or guess a URL; copy it exactly from a page you opened. Merge duplicates (match by requisition ID, else title + location).
 
 ## Role match
@@ -50,9 +51,9 @@ Among postings that pass the age rule: NEW if the posting's URL (or same title +
 For companies whose Notes say "watch the team section," list the finance staff (CFO, Controller, VP Finance, and similar) by name and title. Mark any added, removed, or changed entry vs. last week as CHANGE.
 
 ## Output
-Subject: Weekly finance job scan — {today's date}
+Subject: Job Scan — {today's date}
 
-1. **Finance roles**: table with columns Status | New/Seen | Company | Title | Location | Link | Notes. NEW first.
+1. **Roles**: table with columns Status | New/Seen | Company | Title | Location | Link | Notes. NEW first.
    Status: DIRECT (read from the employer's board), VERIFIED (found via web/aggregator, confirmed on the employer's page), or UNVERIFIED (found via web/aggregator search, not confirmed; link goes to the aggregator).
 2. **Team-page watch**: current finance names and titles per watched company; CHANGE items first, or "No change."
 3. **Not covered this week**: companies with no board read and no search results, with the reason.
