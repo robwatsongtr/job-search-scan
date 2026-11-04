@@ -116,7 +116,7 @@
 
 ## Springbrook Software
 - URL: https://springbrooksoftware.isolvedhire.com/jobs/
-- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved Hire ("Springbrook Holding Company LLC"); list loads via JS, so fetch sees nothing even when jobs exist (confirmed via ApplicantPro, same platform). Board live but empty as of 10/28/26 (checked in browser). Not linked from springbrooksoftware.com. Job alert sign-up available on page. Portland HQ.
+- Notes: NEEDS BROWSER/SCRAPER (group 2). isolved Hire ("Springbrook Holding Company LLC"); list loads via JS, so fetch sees nothing even when jobs exist (confirmed via ApplicantPro, same platform). Not linked from springbrooksoftware.com. Job alert sign-up available on page. Portland HQ.
 
 ## Concora Credit
 - URL: https://careers-concoracredit.icims.com
